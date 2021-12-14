@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Kheya Foundation</title>
+  
+    </head>
+    <body>
+   
+    
+    <div>
+    
+    </div>
+
+</head>
+
+<body>
+  <img src="http://uanetworks.co.in/Kheyaa_New/assets/images/about/abtlogo.png" id="srcc"class="center">
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="">Donate</a></li>
+    <li><a href="http://uanetworks.co.in/Kheyaa_New/knowing_kheyaa.php">About Us</a></li>
+    <li><a href="http://uanetworks.co.in/Kheyaa_New/contact.php">Contact Us</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn"></a>
+      <div class="dropdown-content">
+        <a href="donate.html">Donor List</a>
+        <a href="#">Join As A volunteer</a>
+        <a href="#">Works</a>
+      </div>
+    </li>
+  </ul>
+  <h1>Welcome to the care@kheyaa.org</h1>
+  <h2>We Help the poor People Who are needy.</h2>
+  <h3>We have created this website to take the donations and to help the poor.</h3>
+
+  <div class="img-slider">
+    <div class="slide active">
+      <img src="https://www.smilefoundationindia.org/images/home/shiksha-banner-2.jpg" alt="" height="400px" widht="200px">
+      <div class="info">
+        <h2>Slide 01</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="http://uanetworks.co.in/Kheyaa_New/control/upl_O@_ded/614f777f2f671_IMG-20201020-WA0671.jpg" alt=""height="500px"width="450px">
+      <div class="info">
+        <h2>Slide 02</h2>
+     
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+    </div>
+    <div class="slide">
+      <img src="https://www.smilefoundationindia.org/images/home/shiksha-banner-1.jpg" alt=""height="400px" widht="200px">
+      <div class="info">
+        <h2>Slide 03</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://www.smilefoundationindia.org/images/home/shiksha-banner-4.jpg" alt=""height="400px" widht="200px">
+      <div class="info">
+        <h2>Slide 04</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://www.smilefoundationindia.org/images/home/shiksha-banner-5.jpg" alt=""height="400px" widht="200px">
+      <div class="info">
+        <h2>Slide 05</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="btn active"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  var slides = document.querySelectorAll('.slide');
+  var btns = document.querySelectorAll('.btn');
+  let currentSlide = 1;
+
+  // Javascript for image slider manual navigation
+  var manualNav = function(manual){
+    slides.forEach((slide) => {
+      slide.classList.remove('active');
+
+      btns.forEach((btn) => {
+        btn.classList.remove('active');
+      });
+    });
+
+    slides[manual].classList.add('active');
+    btns[manual].classList.add('active');
+  }
+
+  btns.forEach((btn, i) => {
+    btn.addEventListener("click", () => {
+      manualNav(i);
+      currentSlide = i;
+    });
+  });
+
+  // Javascript for image slider autoplay navigation
+  var repeat = function(activeClass){
+    let active = document.getElementsByClassName('active');
+    let i = 1;
+
+    var repeater = () => {
+      setTimeout(function(){
+        [...active].forEach((activeSlide) => {
+          activeSlide.classList.remove('active');
+        });
+
+      slides[i].classList.add('active');
+      btns[i].classList.add('active');
+      i++;
+
+      if(slides.length == i){
+        i = 0;
+      }
+      if(i >= slides.length){
+        return;
+      }
+      repeater();
+    }, 10000);
+    }
+    repeater();
+  }
+  repeat();
+  </script>
+
+  
+     
+   
+      
+    </html>
+
+<div>
+
+</div>
+<h2 id="man">Kheya Global Foundation is Nonprofit Organization For Help .</h2>
+<p id="yeah">Kheyaa is Determined to ensure child rights and education, to provide peaceful livelihood for the distressed elders and to restore lives of the street dwellers through various specialised projects.</p>
+  <p id="mann">Regular campaigns to promote human rights, health and cleanliness, life and moral education, communal unity and universal brotherhood and culture are the integrated parts of its projects.</p>
+<br>
+  <div id="niii">
+
+
+
+<div id="nga">
+  <b><p>FEATURES</p></b>
+  <h1>The great journey to end poverty for good begins with a child.</h1>
+<button type = "submit" name = "learn" value = "myimage" id="li">
+  <p>Happy Celebration Day</p>
+  <img src="https://th.bing.com/th/id/OIP.lNswcOXYpsehPkaj6GgoeAHaHx?w=180&h=189&c=7&r=0&o=5&pid=1.7" />
+</button>
+<br>
+<button type = "submit" name = "learn" value = "myimage" id="li">
+  <br>
+  <p>Mission Education</p><br>
+  <br>
+  <img src="https://th.bing.com/th/id/OIP.lNswcOXYpsehPkaj6GgoeAHaHx?w=180&h=189&c=7&r=0&o=5&pid=1.7" />
+</button>
+<br>
+<button type = "submit" name = "learn" value = "myimage" id="li">
+  <br>
+  <p>Donate</p><br>
+  <br>
+  <img src="https://th.bing.com/th/id/OIP.lNswcOXYpsehPkaj6GgoeAHaHx?w=180&h=189&c=7&r=0&o=5&pid=1.7" />
+</button>
+<br>
+<h2 id="lollards">
+  The great journey to end poverty for good begins with a child.</h2>
+
+</div>
+<br>
+<p>Causes</p>
+<h1 ID="LOLA">Latest Works Of Kheyaa.</h1>
+
+
+  <h1>Our Works and Donate To help the poor</h1>
+   
+  <br>
+
+  <br>
+
+  <br>
+</div>
+  <div class="content">
+  <img src="http://uanetworks.co.in/Kheyaa_New/assets/images/small_slider/Science-School-icon.png">
+  <h1 id="local">send the children to school.</h1>
+  <a href="#" class="btn">
+    <span class="left icon icon-tablet"></span>
+    <span class="right title">Doanate</span>
+    <br>
+  </a> 
+</div>
+<div class="content">
+  <img src="http://uanetworks.co.in/Kheyaa_New/assets/images/small_slider/Open-Book-icon.png">
+  <h1 id="local">Donate For The Free Education For The Poor Children.</h1>
+  <a href="#" class="btn">
+    <span class="left icon icon-tablet"></span>
+    <span class="right title">Doanate</span>
+    <br>
+  </a> 
+</div>
+<div id="despacito">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="seee">
+<h3> Your wish,
+  our activity.
+  </h3>
+  <h1>Call Us!
+    987 678 678</h1>
+    <h3>E-mail Us!
+      care@kheyaa.org</h3>
+    </div>
+</div>
+<br>
+<br>
+<div id="wutt">
+<h3 id="ohhhhh">Some of our Great Members</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="http://uanetworks.co.in/Kheyaa_New/assets/images/team/Jewel%20Das.png">
+<h4 id="wuttt">Jewel Das</h4>
+<br>
+<br>
+<br>
+<br>
+<img src="http://uanetworks.co.in/Kheyaa_New/assets/images/team/Abhishek%20Saha.png">
+<h4 id="wuttt">Abhishek Saha</h4>
+<br>
+<br>
+<br>
+<br>
+<img src="http://uanetworks.co.in/Kheyaa_New/assets/images/team/Shantanu%20Chattopadhyay.png">
+<h4 id="wuttt">Shantanu Chattopadhyay</h4>
+<br>
+<br>
+<br>
+<br>
+<img src="http://uanetworks.co.in/Kheyaa_New/assets/images/team/Swapan%20Kumar%20Dey.png">
+<h4 id="wuttt">Swapan Kumar Dey</h4>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="wh">
+  <a href="https://wa.me/918617499456"target="_\Blank"><img src="https://th.bing.com/th/id/OIP.hM_t_vJKPyjI3SFpoZCwOAHaHa?w=170&h=180&c=7&r=0&o=5&pid=1.7"class="whw"></a>
+ <h4>Click On this Whatsapp icon to message us :)</h4>
+  <div id="heyyy">
+
+  
+ </div>
+  <section class="partners-section section-padding">
+    <main id="body"> 
+      <section id="page"> 
+          
+      </section> 
+  </main> 
+  <div id="footer"> 
+      <section id="cta"> 
+         
+          <form> 
+              <input type="text" placeholder="E-mail address" /> 
+              <input type="submit" value="Try now" /> 
+          </form> 
+      </section> 
+      <section id="resources"> 
+          <h2>Resources</h2> 
+          <div id="modules"> 
+              <h2>Resources</h2> 
+              <div class="module"> 
+                  <h3>Home</h3> 
+                  <ul> 
+                    
+                  </ul> 
+              </div> 
+              <div class="module"> 
+                  <h3>contact us</h3> 
+                  <ul> 
+                      
+                  </ul> 
+              </div> 
+              <div class="module"> 
+                  <h3>About Us</h3>
+                  <ul> 
+                      <li class="mail"><a href="">Support</a></li> 
+                      <li class="phone"><a href="">987 678 678</a></li> 
+                      <li class="twitter"><a href="">NGO</a></li> 
+                      <li class="facebook"><a href="">NGO</a></li> 
+                  </ul> 
+              </div> 
+              <div class="module"> 
+               
+              </div> 
+          </div> 
+      </section> 
+      <div id="signature" aria-hidden="true"></div> 
+      <h3>Disclaimer: Kheyaa never assigns a third party agency for any recruitment, trainings, campaigns or other activities. Donors are cautioned not to donate material or money to any unauthorised person or agency. Monetary donation is to be made only to Kheyaa's bank account. Please contact us directly to get correct information. Beware of any unwarranted claims made by anyone on behalf of Kheyaa. If you meet up any individual or organisation making a material or monetary demand in our name please bring it to our notice immediately.</h3>
+      <footer id="legal"> 
+          <p>&copy; 3000 by Company. All rights reserved. Please read the <a href="">Privacy Policy</a> and <a href="">Terms of Service</a>.</p> 
+      </footer> 
+  </div> 
+
+  
+
+<style>
+#icon {
+ background-image: url("images/icon.png") ;
+ background-repeat:no-repeat;
+background-position:5px 2px;
+text-align: left;
+text-indent: 42px;
+}
+<style>
+    *{
+        margin:0;
+        padding:0;
+        font-family:verdana;
+      }
+      #abc{
+        width:100%;
+        height:100vh;
+        background-image: url(img2.jpg);
+        background-size: cover;
+      }
+      nav{
+        width: 100%;
+        height: 50px;
+        background-color: #0005;
+        line-height: 50px;
+      }
+      nav ul{
+        float: right;
+        margin-right: 30px;
+      }
+      nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        transition: 0.7s all;
+      }
+      nav ul li:hover{
+        background-color:#088;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 30px;
+      }
+#wuy{
+background-color: #0000cc;
+color:#fff;
+border-color: red rgba(170, 50, 220, .6) green;
+border-width: 1.2rem;
+}
+#prabuddhagotohell{
+font-family:cursivel;
+}
+#man{
+color:green;
+font-family:cursive;
+}
+#yeah{
+color:grey;
+font-family:cursive;
+}
+#mann{
+    color:grey;
+font-family:cursive;
+
+}
+#li{
+    padding: 40px 20px;
+    text-align: center;
+    background: #14b761;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+#niii{
+background-color:blue;
+color:white;
+font-family:cursive;
+background-radius:13px;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#mannnn{
+border-color:red;
+}
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+content: "";
+background: rgba(6,23,56,.8);
+border-radius: 50%;
+opacity: 0;
+visibility: hidden;
+transition: all .5s;
+position: relative;
+    text-align: center;
+    margin: auto;
+    width: 305px;
+    height: 305px;
+}
+#lol{
+
+
+}
+
+#MAN{
+  
+  background: url(https://pcbx.us/bexy.jpg);
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body,html{height:100%;}body{color:#fff;margin:0 auto;font:1em/1.3em Montserrat,Helvetica,sans-serif;}.clearfix{clear:both;}.container{ background: url(https://pcbx.us/bexy.jpg);padding-top:20px;height:100%;width:100%;text-align:center;background-color:#ddd;}h1{margin:40px 0;font-size:40px;line-height:40px;font-weight:bold;text-shadow:0px 1px 1px #888;}a{text-decoration:none;color:#fff;margin:0 10px;}.btn{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;position:relative;display:inline-block;overflow:hidden;height:53px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;line-height:30px;font-size:16px;font-weight:bold;text-shadow:0px 1px 1px #888;}.btn span.icon,.btn span.title{display:block;position:relative;line-height:50px;padding:0 30px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;}.btn span.left{float:left;border-radius:6px 0 0 6px;-moz-border-radius:6px 0 0 6px;-webkit-border-radius:6px 0 0 6px;}.btn span.right{float:right;border-radius:0 6px 6px 0;-moz-border-radius:0 6px 6px 0;-webkit-border-radius:0 6px 6px 0;}.btn span.icon{font-size:23px;background-color:#00967f;-webkit-box-shadow:0 3px 0 0 #007261;box-shadow:0 3px 0 0 #007261;text-shadow:0px 1px 1px #888;}.btn span.title{-webkit-box-shadow:0 3px 0 0 #00ae94;box-shadow:0 3px 0 0 #00ae94;background-color:#00cdae;}.btn span.arrow-left,.btn span.arrow-right{position:absolute;width:0;height:0;border-top:25px solid transparent;border-bottom:25px solid transparent;-webkit-transition:all .15s;-transition:all .15s;-webkit-transition-property:left,right;transition-property:left,right;}.btn.left span.arrow-left{right:0;-webkit-box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;border-right:10px solid #00cdae;}.btn.right span.arrow-left{right:0;-webkit-box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;border-right:10px solid #00967f;}.btn.left span.arrow-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;border-left:10px solid #00967f;}.btn.right span.arrow-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;border-left:10px solid #00cdae;}.btn span.slant-left,.btn span.slant-right{position:absolute;width:0;height:0;border-top:0 solid transparent;border-bottom:50px solid transparent;-webkit-transition:all .15s;-transition:all .15s;-webkit-transition-property:left,right;transition-property:left,right;}.btn.left span.slant-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;box-shadow:-10px 0 0 0 #00967f,-10px 3px 0 0 #007261;border-left:10px solid #00967f;}.btn.right span.slant-right{left:0;-webkit-box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;box-shadow:-10px 0 0 0 #00cdae,-10px 3px 0 0 #00ae94;border-left:10px solid #00cdae;}.btn.left span.slant-left{right:0;-webkit-box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;box-shadow:10px 0 0 0 #00cdae,10px 3px 0 0 #00ae94;border-right:10px solid #00cdae;}.btn.right span.slant-left{right:0;-webkit-box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;box-shadow:10px 0 0 0 #00967f,10px 3px 0 0 #007261;border-right:10px solid #00967f;}.btn:active,.btn.active{height:51px;}.btn:hover{}.btn:hover span.arrow-left{right:10px;}.btn:hover span.arrow-right{left:10px;}.btn:hover span.slant-left{right:10px;}.btn:hover span.slant-right{left:10px;}.btn-small{height:30px;font-size:12px;line-height:10px;}a.btn-small span.btn{height:30px;}
+
+#LOLA{
+color:black;
+}
+#local{
+color:black;
+}
+#despacito{
+color:black;
+background-color:blue;
+}
+#seee{
+  font-family:cursive;
+  color:white;
+
+}
+#ohhhhh{
+  align-items: center; /* Pack items around the center */
+color:black;
+font-weight:900;
+font-family:cursive;
+font-size:30px;
+}
+#wuttt{
+color:black;
+font-weight:900;
+font-family:cursive;
+font-size:20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: blue;
+ font-size:20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active{
+background-color: gray;
+color: white;
+}
+li a:hover , .dropdown:hover .dropbtn{
+  background-color: orange;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightblue;
+  min-width: 160px;
+  box-shadow: 5px 8px 10px 0px black;
+ }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: gray;
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1,h2,h3{
+text-align:center; 
+color: green;
+}
+#srcc{
+align-items:center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+  #wut{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1D212B;
+  }
+  
+  .img-slider{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background: #1D212B;
+  }
+  
+  .img-slider .slide{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+  
+  .img-slider .slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+  }
+  
+  .img-slider .slide img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .img-slider .slide .info{
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+  }
+  
+  .img-slider .slide .info h2{
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+  
+  .img-slider .slide .info p{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .img-slider .navigation{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .img-slider .navigation .btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .img-slider .navigation .btn.active{
+    background: #2696E9;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 820px){
+    .img-slider{
+      width: 600px;
+      height: 375px;
+    }
+  
+    .img-slider .slide .info{
+      padding: 10px 25px;
+    }
+  
+    .img-slider .slide .info h2{
+      font-size: 35px;
+    }
+  
+    .img-slider .slide .info p{
+      width: 70%;
+      font-size: 15px;
+    }
+  
+    .img-slider .navigation{
+      bottom: 25px;
+    }
+  
+    .img-slider .navigation .btn{
+      width: 10px;
+      height: 10px;
+      margin: 8px;
+    }
+  }
+  
+  @media (max-width: 620px){
+    .img-slider{
+      width: 400px;
+      height: 250px;
+    }
+  
+    .img-slider .slide .info{
+      padding: 10px 20px;
+    }
+  
+    .img-slider .slide .info h2{
+      font-size: 30px;
+    }
+  
+    .img-slider .slide .info p{
+      width: 80%;
+      font-size: 13px;
+    }
+  
+    .img-slider .navigation{
+      bottom: 15px;
+    }
+  
+    .img-slider .navigation .btn{
+      width: 8px;
+      height: 8px;
+      margin: 6px;
+    }
+  }
+  
+  @media (max-width: 420px){
+    .img-slider{
+      width: 320px;
+      height: 200px;
+    }
+  
+    .img-slider .slide .info{
+      padding: 5px 10px;
+    }
+  
+    .img-slider .slide .info h2{
+      font-size: 25px;
+    }
+  
+    .img-slider .slide .info p{
+      width: 90%;
+      font-size: 11px;
+    }
+  
+    .img-slider .navigation{
+      bottom: 10px;
+    }
+  }
+  /* Simple reset */
+html, body, #body *, #footer *{ margin: 0; padding: 0; display: block; color: #3d3d3d; font-family: "Open Sans", sans-serif; font-size: inherit; font-weight: normal; text-decoration: none; line-height: 1; outline: 0; } 
+ 
+/* FontAwesome */
+    @font-face{ font-family: "FontAwesome"; src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0"); src: url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg"); font-weight: normal; font-style: normal; } 
+ 
+/* Queries */
+    /* Min */
+    @media (min-width: 0){ 
+        html{ font-size: 50%;  } 
+            body{ min-width: 200px; background: #f0f0ef; } 
+                #body{  } 
+                    #page{ padding: 4em; background: #fff; } 
+                        #page > h2{ color: #444; font-size: 1.25em; font-weight: 600; text-transform: uppercase; } 
+                        #page > p{ margin-top: 2em; line-height: 1.25; } 
+                #footer{ background: #202020; } 
+                    #cta{ padding: 4em; background: #350f55; } 
+                        #cta > h2{ color: #fff; font-size: 2em; font-weight: 600; text-transform: uppercase; text-align: center; } 
+                        #cta > p{ margin-top: 1em; color: #ddd; text-align: center; line-height: 1.5; } 
+                        #cta > form{ margin: 0 auto; margin-top: 2em; max-width: 40em; } 
+                            #cta > form{ position: relative; } 
+                                #cta > form > input[type=text]{ padding: 1em; padding-right: 7em; width: 100%; height: 4em; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
+                                #cta > form > input[type=submit]{ position: absolute; top: 0; right: 0; bottom: 0; padding: 1em; height: 4em; color: #fff; font-weight: 600; background: #fe9909; border: 0; cursor: pointer; } 
+                                #cta > form > input[type=submit]:hover{ background: #fdca40; } 
+                    #resources{  } 
+                        #resources > h2{ display: none; }
+                        #modules{ padding: 4em; margin-bottom: -2em; } 
+                            #modules > h2{ display: none; } 
+                            #modules > .module{  } 
+                                #modules > .module > h3{ margin-bottom: 2em; color: #f2f0ed; font-size: 1.25em; font-weight: 600; text-transform: uppercase; text-align: center; } 
+                                #modules > .module > p{ margin-bottom: 2em; color: #f2f0ed; line-height: 1.25; } 
+                                #modules > .module > ul{ margin-bottom: 2em; } 
+                                    #modules > .module > ul > li{ color: #f2f0ed; line-height: 1.25; } 
+                                        #modules > .module > ul > li > a{ color: #fe9909; line-height: 1.25; } 
+                                        #modules > .module > ul > li.mail > a:before{ content: "\f003"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.phone > a:before{ content: "\f095"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.facebook > a:before{ content: "\f09a"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li.twitter > a:before{ content: "\f099"; margin: 0 0.5em 0 0; display: inline-block; color: #f9f8f7; font-family: "FontAwesome"; text-align: center; } 
+                                        #modules > .module > ul > li > a:hover{ color: #fdca40; } 
+                    #signature{  } 
+                    #legal{ padding: 2em 4em; background: #f9f8f7; } 
+                        #legal > p{ font-size: 0.75em; text-align: center; } 
+                            #legal > p > a{ display: inline; color: #fe9909; line-height: 1.25; text-decoration: underline; } 
+                            #legal > p > a:hover{ color: #fdca40; } 
+    }
+    /* Bricks */
+    @media (min-width: 200px){ 
+        html{ font-size: 4vw; } 
+            body{  } 
+    } 
+    /* Smartphones */
+    @media (min-width: 300px){ 
+        html{  } 
+            body{  } 
+    } 
+    /* Retina */
+    @media (min-width: 479px){ 
+        html{ font-size: 120%; } 
+            body{  } 
+    } 
+    /* Tablet */
+    @media (min-width: 768px){ 
+        html{  } 
+            body{  } 
+                #body{  } 
+                    #resources{  } 
+                        #modules{ overflow: hidden; } 
+                            #modules > .module{ float: left; width: 50%; } 
+                                #modules > .module > h3{ text-align: left; } 
+                                #modules > .module:nth-child(odd) > h3{ text-align: right; } 
+                                #modules > .module > p{  }  
+                                #modules > .module:nth-child(odd) > p{ text-align: right; } 
+                                #modules > .module > ul{  } 
+                                    #modules > .module > ul > li{  } 
+                                    #modules > .module:nth-child(odd) > ul > li{ text-align: right; } 
+                                        #modules > .module > ul > li > a{  } 
+    } 
+    /* Desktop */
+    @media (min-width: 979px){ 
+        html{  } 
+            body{  } 
+                #body{  } 
+                    #resources{  } 
+                        #modules{  } 
+                            #modules > .module{ width: 25%; } 
+                                #modules > .module > h3{ text-align: left; } 
+                                #modules > .module:nth-child(odd) > h3{ text-align: left; } 
+                                #modules > .module > p{  } 
+                                #modules > .module:nth-child(odd) > p{ text-align: left; } 
+                                #modules > .module > ul{  } 
+                                    #modules > .module > ul > li{  } 
+                                    #modules > .module:nth-child(odd) > ul > li{ text-align: left; } 
+                                        #modules > .module > ul > li > a{  } 
+    } 
+    /* Widescreen */
+    @media (min-width: 1800px){ 
+        html{ font-size: 1.067vw; } 
+            body{  } 
+    } 
+    /* Max */
+    @media (min-width: 2800px){ 
+        html{ font-size: 186.7%; } 
+            body{  } 
+    } 
+    #heyyy{
+color:black;
+    }
+
+</style>
+</head>
+
+</style>
+</head>
+
+</style>
+</body>
+
+</html>
